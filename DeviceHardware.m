@@ -27,6 +27,13 @@
 #define DH_MACHINE_IPHONE_9_2 @"iPhone9,2"
 #define DH_MACHINE_IPHONE_9_3 @"iPhone9,3"
 #define DH_MACHINE_IPHONE_9_4 @"iPhone9,4"
+#define DH_MACHINE_IPHONE_10_1 @"iPhone10,1"
+#define DH_MACHINE_IPHONE_10_2 @"iPhone10,2"
+#define DH_MACHINE_IPHONE_10_3 @"iPhone10,3"
+#define DH_MACHINE_IPHONE_10_4 @"iPhone10,4"
+#define DH_MACHINE_IPHONE_10_5 @"iPhone10,5"
+#define DH_MACHINE_IPHONE_10_6 @"iPhone10,6"
+
 
 #define DH_MACHINE_IPOD_1_1 @"iPod1,1"
 #define DH_MACHINE_IPOD_2_1 @"iPod2,1"
@@ -95,6 +102,12 @@
 	if ([platform isEqualToString:DH_MACHINE_IPHONE_9_2])    return DeviceHardwareSpecificPlatform_iPhone_7_Plus_CDMA;
 	if ([platform isEqualToString:DH_MACHINE_IPHONE_9_3])    return DeviceHardwareSpecificPlatform_iPhone_7_GSM;
 	if ([platform isEqualToString:DH_MACHINE_IPHONE_9_4])    return DeviceHardwareSpecificPlatform_iPhone_7_Plus_GSM;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_1])    return DeviceHardwareSpecificPlatform_iPhone_8;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_4])    return DeviceHardwareSpecificPlatform_iPhone_8;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_2])    return DeviceHardwareSpecificPlatform_iPhone_8_Plus;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_5])    return DeviceHardwareSpecificPlatform_iPhone_8_Plus;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_3])    return DeviceHardwareSpecificPlatform_iPhone_X;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_6])    return DeviceHardwareSpecificPlatform_iPhone_X;
 	if ([platform isEqualToString:DH_MACHINE_IPOD_1_1])      return DeviceHardwareSpecificPlatform_iPod_Touch_1G;
 	if ([platform isEqualToString:DH_MACHINE_IPOD_2_1])      return DeviceHardwareSpecificPlatform_iPod_Touch_2G;
 	if ([platform isEqualToString:DH_MACHINE_IPOD_3_1])      return DeviceHardwareSpecificPlatform_iPod_Touch_3G;
@@ -160,6 +173,12 @@
 	if ([platform isEqualToString:DH_MACHINE_IPHONE_9_2])    return DeviceHardwareGeneralPlatform_iPhone_7_Plus;
 	if ([platform isEqualToString:DH_MACHINE_IPHONE_9_3])    return DeviceHardwareGeneralPlatform_iPhone_7;
 	if ([platform isEqualToString:DH_MACHINE_IPHONE_9_4])    return DeviceHardwareGeneralPlatform_iPhone_7_Plus;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_1])   return DeviceHardwareGeneralPlatform_iPhone_8;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_2])   return DeviceHardwareGeneralPlatform_iPhone_8_Plus;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_3])   return DeviceHardwareGeneralPlatform_iPhone_X;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_4])   return DeviceHardwareGeneralPlatform_iPhone_8;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_5])   return DeviceHardwareGeneralPlatform_iPhone_8_Plus;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_6])   return DeviceHardwareGeneralPlatform_iPhone_X;
 	if ([platform isEqualToString:DH_MACHINE_IPOD_1_1])      return DeviceHardwareGeneralPlatform_iPod_Touch_1G;
 	if ([platform isEqualToString:DH_MACHINE_IPOD_2_1])      return DeviceHardwareGeneralPlatform_iPod_Touch_2G;
 	if ([platform isEqualToString:DH_MACHINE_IPOD_3_1])      return DeviceHardwareGeneralPlatform_iPod_Touch_3G;
@@ -224,6 +243,12 @@
 	if ([platform isEqualToString:DH_MACHINE_IPHONE_9_2])    return DeviceHardwarePlatformType_iPhone;
 	if ([platform isEqualToString:DH_MACHINE_IPHONE_9_3])    return DeviceHardwarePlatformType_iPhone;
 	if ([platform isEqualToString:DH_MACHINE_IPHONE_9_4])    return DeviceHardwarePlatformType_iPhone;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_1])   return DeviceHardwarePlatformType_iPhone;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_2])   return DeviceHardwarePlatformType_iPhone;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_3])   return DeviceHardwarePlatformType_iPhone;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_4])   return DeviceHardwarePlatformType_iPhone;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_5])   return DeviceHardwarePlatformType_iPhone;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_6])   return DeviceHardwarePlatformType_iPhone;
 	if ([platform isEqualToString:DH_MACHINE_IPOD_1_1])      return DeviceHardwarePlatformType_iPod_Touch;
 	if ([platform isEqualToString:DH_MACHINE_IPOD_2_1])      return DeviceHardwarePlatformType_iPod_Touch;
 	if ([platform isEqualToString:DH_MACHINE_IPOD_3_1])      return DeviceHardwarePlatformType_iPod_Touch;
@@ -289,6 +314,12 @@
 	if ([platform isEqualToString:DH_MACHINE_IPHONE_9_2])    return @"iPhone 7 Plus (CDMA)";
 	if ([platform isEqualToString:DH_MACHINE_IPHONE_9_3])    return @"iPhone 7 (GSM)";
 	if ([platform isEqualToString:DH_MACHINE_IPHONE_9_4])    return @"iPhone 7 Plus (GSM)";
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_1])   return @"iPhone 8 ";
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_2])   return @"iPhone 8 Plus";
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_3])   return @"iPhone X";
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_4])   return @"iPhone 8";
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_5])   return @"iPhone 8 Plus";
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_10_6])   return @"iPhone X";
 	if ([platform isEqualToString:DH_MACHINE_IPOD_1_1])      return @"iPod Touch 1G";
 	if ([platform isEqualToString:DH_MACHINE_IPOD_2_1])      return @"iPod Touch 2G";
 	if ([platform isEqualToString:DH_MACHINE_IPOD_3_1])      return @"iPod Touch 3G";
