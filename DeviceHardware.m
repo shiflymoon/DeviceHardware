@@ -37,6 +37,9 @@
 #define DH_MACHINE_IPHONE_11_2 @"iPhone11,2"
 #define DH_MACHINE_IPHONE_11_6 @"iPhone11,6"
 #define DH_MACHINE_IPHONE_11_4 @"iPhone11,4"
+#define DH_MACHINE_IPHONE_12_1 @"iPhone12,1"
+#define DH_MACHINE_IPHONE_12_3 @"iPhone12,3"
+#define DH_MACHINE_IPHONE_12_5 @"iPhone12,5"
 
 
 
@@ -117,6 +120,9 @@
     if ([platform isEqualToString:DH_MACHINE_IPHONE_11_4])    return DeviceHardwareSpecificPlatform_iPhone_XS_Max;
     if ([platform isEqualToString:DH_MACHINE_IPHONE_11_6])    return DeviceHardwareSpecificPlatform_iPhone_XS_Max;
     if ([platform isEqualToString:DH_MACHINE_IPHONE_11_8])    return DeviceHardwareSpecificPlatform_iPhone_XR;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_12_1])    return DeviceHardwareSpecificPlatform_iPhone_11;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_12_3])    return DeviceHardwareSpecificPlatform_iPhone_11_Pro;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_12_5])    return DeviceHardwareSpecificPlatform_iPhone_11_Pro_Max;
 	if ([platform isEqualToString:DH_MACHINE_IPOD_1_1])      return DeviceHardwareSpecificPlatform_iPod_Touch_1G;
 	if ([platform isEqualToString:DH_MACHINE_IPOD_2_1])      return DeviceHardwareSpecificPlatform_iPod_Touch_2G;
 	if ([platform isEqualToString:DH_MACHINE_IPOD_3_1])      return DeviceHardwareSpecificPlatform_iPod_Touch_3G;
@@ -190,6 +196,9 @@
     if ([platform isEqualToString:DH_MACHINE_IPHONE_10_6])   return DeviceHardwareGeneralPlatform_iPhone_X;
     if ([platform isEqualToString:DH_MACHINE_IPHONE_11_8])   return  DeviceHardwareSpecificPlatform_iPhone_XR;
     if ([platform isEqualToString:DH_MACHINE_IPHONE_11_2])   return  DeviceHardwareSpecificPlatform_iPhone_XS;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_12_1])   return  DeviceHardwareSpecificPlatform_iPhone_11;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_12_3])   return  DeviceHardwareSpecificPlatform_iPhone_11_Pro;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_12_5])   return  DeviceHardwareSpecificPlatform_iPhone_11_Pro_Max;
     if ([platform isEqualToString:DH_MACHINE_IPHONE_11_6])   return DeviceHardwareSpecificPlatform_iPhone_XS_Max;
     if ([platform isEqualToString:DH_MACHINE_IPHONE_11_4])   return DeviceHardwareSpecificPlatform_iPhone_XS_Max;
 	if ([platform isEqualToString:DH_MACHINE_IPOD_1_1])      return DeviceHardwareGeneralPlatform_iPod_Touch_1G;
@@ -266,6 +275,9 @@
     if ([platform isEqualToString:DH_MACHINE_IPHONE_11_4])   return  DeviceHardwarePlatformType_iPhone;
     if ([platform isEqualToString:DH_MACHINE_IPHONE_11_6])   return  DeviceHardwarePlatformType_iPhone;
     if ([platform isEqualToString:DH_MACHINE_IPHONE_11_8])   return  DeviceHardwarePlatformType_iPhone;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_12_1])   return  DeviceHardwarePlatformType_iPhone;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_12_3])   return  DeviceHardwarePlatformType_iPhone;
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_12_5])   return  DeviceHardwarePlatformType_iPhone;
 	if ([platform isEqualToString:DH_MACHINE_IPOD_1_1])      return DeviceHardwarePlatformType_iPod_Touch;
 	if ([platform isEqualToString:DH_MACHINE_IPOD_2_1])      return DeviceHardwarePlatformType_iPod_Touch;
 	if ([platform isEqualToString:DH_MACHINE_IPOD_3_1])      return DeviceHardwarePlatformType_iPod_Touch;
@@ -341,6 +353,9 @@
     if ([platform isEqualToString:DH_MACHINE_IPHONE_11_4])   return @"iPhone XS Max";
     if ([platform isEqualToString:DH_MACHINE_IPHONE_11_6])   return @"iPhone XS Max";
     if ([platform isEqualToString:DH_MACHINE_IPHONE_11_8])   return @"iPhone XR";
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_12_1])   return @"iPhone 11";
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_12_3])   return @"iPhone 11 Pro";
+    if ([platform isEqualToString:DH_MACHINE_IPHONE_12_5])   return @"iPhone 11 Pro Max";
 	if ([platform isEqualToString:DH_MACHINE_IPOD_1_1])      return @"iPod Touch 1G";
 	if ([platform isEqualToString:DH_MACHINE_IPOD_2_1])      return @"iPod Touch 2G";
 	if ([platform isEqualToString:DH_MACHINE_IPOD_3_1])      return @"iPod Touch 3G";
